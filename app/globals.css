@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* compensa a altura do header fixo ao rolar até uma âncora */
+#home,
+#sobre,
+#galeria {
+  scroll-margin-top: 90px;
+}
+
+body {
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-fraunces), serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+p {
+  color: #6b5a47;
+}
